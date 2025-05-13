@@ -68,7 +68,7 @@ if __name__ == "__main__":
         col7.metric("Longitudine", f"{data['coordinate']['lon']}°", border=True)
         col8.metric("Latitudine", f"{data['coordinate']['lat']}°",  border=True)
         
-        col1.metric("Temperature", f"{data['tem_mean']}°C", border=True)
+        # col1.metric("Temperature", f"{data['tem_mean']}°C", border=True)
         col2.metric("Tempo", f"{data['giornata']}{emoji[data['giornata']]}", border=True)
         col3.metric("Humidity", f"{data['umid']}%", border=True)
         

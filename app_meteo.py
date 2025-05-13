@@ -3,10 +3,11 @@ import pandas as pd
 import numpy as np
 import requests as req
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
-API_key = os.getenv("api_key")
+# load_dotenv()
+# API_key = os.getenv("api_key")
+API_key = st.secrets['api_key']
 
 
 def misure(d):

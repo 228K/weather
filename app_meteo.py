@@ -12,7 +12,7 @@ API_key = os.getenv("api_key")
 def misure(d):
     C = 273.15
     data = {
-        "tem_mean": round(d["main"]["temp"]-C,2),
+        # "tem_mean": round(d["main"]["temp"]-C,2),
         "umid": d['main']["humidity"],
         'wind':d['wind']['speed'],
         "pres": d['main']["pressure"],
